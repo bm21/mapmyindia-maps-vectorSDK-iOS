@@ -1,9 +1,5 @@
 ![MapmyIndia APIs](https://www.mapmyindia.com/api/img/mapmyindia-api.png)
 
-IF YOU SEE THIS TEXT (in internal git) - The push mirroring from github to gitlab is successfull from public repo on github (forked to my official email ID github account) to public group in internal git.
-
-
-
 # MapmyIndia Vector Maps Sample App (with SDK - Native) for iOS
 
 **This is a sample project created to demonstrate features of different libraries available on iOS plaform. Such as MapmyIndiaMaps, MapmyIndiaAPIKit, MapmyIndiaDirections, MapmyIndiaFeedbackKit.**
@@ -27,9 +23,9 @@ Powered with India's most comprehensive and robust mapping functionalities.
 
 ### [MapmyIndiaAPIKit](#MapmyIndiaAPIKit)
 
-Read [here](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit) for more information about this module.
+Read [here](docs/REST-API-Kit.md) for more information about this module.
 
-Also version history can be seen by following [Version History](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Version-History).
+Also version history can be seen by following [Version History](docs/REST-API-Kit.md#Version-History).
 
 ### [MapmyIndiaMaps](#MapmyIndiaMaps)
 
@@ -50,8 +46,8 @@ Also version history can be seen by following [Version History](https://github.c
 | `5.7.11` | 29 July, 2020 | A info window like marker will be shown instead of default marker on click on map for covid WMS. |
 | `5.7.10` | 15 July, 2020 | Fixed memory consumption issue. |
 | `5.7.9` | 23 June, 2020 | Global session managed for map SDK. |
-| `5.7.8` | 18 June, 2020 | Feature of showing COVID-19 safety status on map is added. On basis of this feature user's safety status can be shown on basis of user's current location. For More info goto [Safety Strip](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Strip).|
-| `5.7.7` | 08 June, 2020 | Show interactive layers(such as Covid-19) on map. For more details go to page [MapmyIndia Interactive Layers](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Interactive-Layers). |
+| `5.7.8` | 18 June, 2020 | Feature of showing COVID-19 safety status on map is added. On basis of this feature user's safety status can be shown on basis of user's current location. For More info goto [Safety Strip](docs/MapmyIndia-Safety-Strip.md).|
+| `5.7.7` | 08 June, 2020 | Show interactive layers(such as Covid-19) on map. For more details go to page [MapmyIndia Interactive Layers](docs/MapmyIndia-Interactive-Layers.md). |
 | `5.7.6` | 03 June, 2020 | Xcode 11.5 compatibility. |
 | `5.7.5` | 12 May, 2020 | MapmyIndiaSafetyPlugin is added as dependency while installing through Cocoapods. |
 | `5.7.4` | 07 May, 2020 | Issue resolved, on disabling monument layer Dem layer got disabled. |
@@ -76,15 +72,15 @@ Also version history can be seen by following [Version History](https://github.c
 
 ### [MapmyIndiaFeedbackKit](#MapmyIndiaFeedbackKit)
 
-Read [here](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Feedback-Kit) for more information about this module.
+Read [here](docs/MapmyIndia-Feedback-Kit.md) for more information about this module.
 
-Also version history can be seen by following [Version History](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Feedback-Kit#Version-History).
+Also version history can be seen by following [Version History](docs/MapmyIndia-Feedback-Kit.md#Version-History).
 
 ### [MapmyIndiaUIWidgets](#MapmyIndiaUIWidgets)
 
-Read [here](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaUIWidgets) for more information about this module.
+Read [here](docs/MapmyIndiaUIWidgets.md) for more information about this module.
 
-Also version history can be seen by following [Version History](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaUIWidgets#Version-History).
+Also version history can be seen by following [Version History](docs/MapmyIndiaUIWidgets.md#Version-History).
 
 ## [Version History](#Version-History)
 
