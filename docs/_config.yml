@@ -46,7 +46,7 @@ theme: "just-the-docs"
 baseurl: "/mapmyindia-maps-vectorSDK-iOS" # the subpath of your site, e.g. /blog
 # url: "https://bm21.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-permalink: pretty
+# permalink: pretty
 
 #theme: minima
 plugins:
