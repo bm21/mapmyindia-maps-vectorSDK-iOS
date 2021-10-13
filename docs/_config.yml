@@ -21,10 +21,6 @@
 title: MapmyIndia Maps Vector SDK for iOS
 description: >- # this means to ignore newlines until "baseurl:"
   MapmyIndia Vector Maps Sample App (with SDK - Native) for iOS.
-baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://www.skillplot.org" # the base hostname & protocol for your site, e.g. http://example.com
-# email: skillplot@gmail.com
-# twitter_username: theskillplot
 github_username:  "bm21/mapmyindia-maps-vectorSDK-iOS"
 
 # Authors
@@ -51,7 +47,7 @@ header_pages:
 # theme: "just-the-docs"
 remote_theme: pmarsceill/just-the-docs
 baseurl: "/mapmyindia-maps-vectorSDK-iOS" # the subpath of your site, e.g. /blog
-# url: "https://bm21.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bm21.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
