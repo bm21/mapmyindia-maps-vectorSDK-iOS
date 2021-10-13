@@ -2,20 +2,20 @@
 
 # MapmyIndiaAPIKit: REST API Kit for iOS
 
-## [Introduction](#Introduction)
+## [Introduction](#introduction)
 
 This SDK includes different API wrapper available with MapmyIndia.
 
 These APIs are easy to integrate and use with different configurable parameters.
 
 Powered with India's most comprehensive and robust mapping functionalities.
+
 **Now Available**  for Srilanka, Nepal, Bhutan and Bangladesh
 
 1. You can get your api key to be used in this document here: [https://www.mapmyindia.com/api/signup](https://www.mapmyindia.com/api/signup)
-
 2. The sample code is provided to help you understand the basic functionality of MapmyIndia REST APIs working on iOS native development platform. 
 
-## [Version History](#Version-History)
+## [Version History](#version-history)
 
 | Version | Dated | Description |
 | :---- | :---- | :---- |
@@ -47,11 +47,11 @@ Powered with India's most comprehensive and robust mapping functionalities.
 | `1.3.9` | 24 Mar, 2020 | Promotional API wrapper added (For Map SDK to show Corona Link Button), Geocode API issue fixed for not getting eLco parameter. |
 | `1.3.8` | 11 Dec, 2019 | Configuration settings added to enable disable default Indoor UI. |
 
-## [Getting Started](#Getting-Started)
+## [Getting Started](#getting-started)
 
 MapmyIndia Maps SDK for IOS lets you easily add MapmyIndia Maps and web services to your own iOS app. MapmyIndia Maps SDK for iOS supports iOS SDK 9.0 and above and Xcode 10.1 or later. You can have a look at the map and features you will get in your own app by using the MapmyIndia Maps app for iOS. The SDK handles map tiles download and their display along with a bunch of controls and native gestures.
 
-## [API Usage and Requirements](#API-Usage-and-Requirements)
+## [API Usage and Requirements](#api-usage-and-requirements)
 Your MapmyIndia Maps SDK usage needs a set of license keys ([get them here](http://www.mapmyindia.com/api/signup) ) and is governed by the API [terms and conditions](https://www.mapmyindia.com/api/terms-&-conditions). 
 As part of the terms and conditions, you cannot remove or hide the MapmyIndia logo and copyright information in your project. 
 Please see [branding guidelines](https://www.mapmyindia.com/api/advanced-maps/API-Branding-Guidelines.pdf) on MapmyIndia [website](https://www.mapmyindia.com/api) for more details.
@@ -75,7 +75,7 @@ MapmyIndiaAccountManager.setAtlasGrantType("GRANT_TYPE") //always put client_cre
 By adding following keys in Info.plist file of your project MapmyIndiaSDKKey, MapmyIndiaRestKey, MapmyIndiaAtlasClientId, MapmyIndiaAtlasClientSecret, MapmyIndiaAtlasGrantType.
 
 
-## [Autosuggest API](#Autosuggest-API)
+## [Autosuggest API](#autosuggest-api)
 
 For live demo click [LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/doc/sample/mapmyindia-maps-auto-suggest-api-example.php)
 
@@ -113,6 +113,8 @@ Additionally you can also set location and restriction filters in object of `Map
     -   (a) `MapmyIndiaElocFilter`: to filter results on basis of eLoc
     -   (b) `MapmyIndiaBoundsFilter`: to filter results on basis of geo bound.
 6. **hyperLocal**: This parameter lets the search give results that are hyper-localized to the reference location passed in the location parameter. This means that nearby results are given a higher ranking than results far from the reference location. Highly prominent results will still appear in the search results, however they will be lower in the list of results. This parameter will work ONLY in conjunction with the location parameter.
+
+
 ### Response Parameters
 
 In response of auto suggest search either you will receive an error or an array of `MapmyIndiaAtlasSuggestion`, Where `MapmyIndiaAtlasSuggestion` is derived from `MapmyIndiaSuggestion` class. Yo will find below useful properties in suggestion object :
@@ -188,6 +190,8 @@ suggestions, NSError * _Nullable error) {
 		}
 	}];
 ```
+
+
 #### Swift
 ```swift
 let autoSuggestManager = MapmyIndiaAutoSuggestManager.shared
@@ -219,7 +223,7 @@ withRegion: .india)
 For more details visit our [online documentation](https://www.mapmyindia.com/api/advanced-maps/ios/vector-map-sdk#Autosuggest).
 
 
-## [Reverse Geocoding API](#Reverse-Geocoding-API)
+## [Reverse Geocoding API](#reverse-geocoding-api)
 
 For live demo click [LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/doc/sample/mapmyindia-maps-reverse-geocoding-rest-api-example)
 
@@ -319,7 +323,7 @@ attribution, error) in
 For more details visit our [online documentation](https://www.mapmyindia.com/api/advanced-maps/ios/vector-map-sdk#Reverse-Geocoding).
 
 
-## [Nearby API](#Nearby-API)
+## [Nearby API](#nearby-api)
 
 For live demo click [LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/doc/sample/mapmyindia-maps-near-by-api-example)
 
@@ -458,6 +462,8 @@ MapmyIndiaNearbyAtlasOptions *nearByOptions = [[MapmyIndiaNearbyAtlasOptions all
                 }
             }];
 ```
+
+
 #### Swift
 ```swift
 let nearByManager = MapmyIndiaNearByManager.shared
@@ -492,8 +498,9 @@ error) in
 	}
 ```
 
- ### [NearBy using Eloc](#NearBy-using-Eloc)
- *Code snipet for getting nearby location using eLocs is below.*
+ ### [NearBy using Eloc](#nearby-using-eloc)
+
+ * Code snipet for getting nearby location using eLocs is below.*
 
  ```swift
 let nearByManager = MapmyIndiaNearByManager.shared
@@ -521,7 +528,7 @@ error) in
 
 For more details visit our [online documentation](https://www.mapmyindia.com/api/advanced-maps/ios/vector-map-sdk#nearby-search).
 
-## [Place Details/eLoc Legacy API](#Place-DetailseLoc-Legacy-API)
+## [Place Details/eLoc Legacy API](#place-details-eloc-legacy-api)
 
 For live demo click [LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/doc/sample/mapmyindia-maps-place-details-api-example)
 
@@ -583,6 +590,8 @@ placemarks, NSString * _Nullable attribution, NSError * _Nullable error) {
 		}
 	}];
 ```
+
+
 #### Swift
 ```swift
 let placeDetailManager = MapmyIndiaPlaceDetailManager.shared
@@ -608,7 +617,7 @@ attribution, error) in
 
 For more details visit our [online documentation](https://www.mapmyindia.com/api/advanced-maps/ios/vector-map-sdk#Place-eLoc).
 
-## [Place Detail](#Place-Detail)
+## [Place Detail](#place-detail)
 
 The MapmyIndia eLoc is a simple, standardised and precise pan-India digital address system. Every location has been assigned a unique digital address or an eLoc. The Place Detail can be used to extract the details of a place with the help of its eLoc i.e. a 6 digit code.
 
@@ -646,7 +655,7 @@ placeDetailManager.getResults(placeOptions) { (placeDetail, error) in
 }
 ```
 
-## [Geocoding API](#Geocoding-API)
+## [Geocoding API](#geocoding-api)
 
 For live demo click [LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/doc/sample/mapmyindia-atlas-geocoding-rest-api-example)
 
@@ -713,6 +722,8 @@ MapmyIndiaAtlasGeocodeOptions *atlasGeocodeOptions = [[MapmyIndiaAtlasGeocodeOpt
         }
     }];
 ```
+
+
 #### Swift
 ```swift
 let atlasGeocodeManager = MapmyIndiaAtlasGeocodeManager.shared
@@ -734,7 +745,7 @@ atlasGeocodeManager.getGeocodeResults(atlasGeocodeOptions) { (response, error) i
 For more details visit our [online documentation]().
 
 
-## [Routing API](#Routing-API)
+## [Routing API](#routing-api)
 
 For live demo click [LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/doc/sample/mapmyindia-maps-route-adv-api-example)
 
@@ -774,7 +785,7 @@ let options = RouteOptions(waypoints: [
 - Use `Directions` singleton class from `Directions` framework to get available routes.
 - You can plot polylines on map for available routes by using Map framework. 
 
-### [Directions Using eLocs](#Directions-Using-eLocs)
+### [Directions Using eLocs](#directions-using-elocs)
 
 An object of Waypoint can be created using coordinate as well as [eLoc](#https://www.mapmyindia.com/eloc/) (unique identifier of place).
 
@@ -833,7 +844,7 @@ Directions.shared.calculate(options) { (waypoints, routes, error) in
 For more details visit our [online documentation]().
 
 
-## [Driving Distance Time Matrix API](#Driving-Distance-Time-Matrix-API)
+## [Driving Distance Time Matrix API](#driving-distance-time-matrix-api)
 
 For live demo click [LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/doc/sample/mapmyindia-maps-distance-matrix-api-example)
 
@@ -924,7 +935,7 @@ let distanceMatrixOptionsETA = MapmyIndiaDrivingDistanceMatrixOptions(center: CL
         }
 ```
 
-### [Distance Using eLocs](#Distance-Using-eLocs)
+### [Distance Using eLocs](#distance-using-elocs)
 
 **Code snipet for getting distance between different locations using eLocs is below.**
 
@@ -958,7 +969,7 @@ let distanceMatrixOptionsETA = MapmyIndiaDrivingDistanceMatrixOptions(center: CL
 
 For more details visit our [online documentation]().
 
-## [Geocoding API - Legacy](#Geocoding-API---Legacy)
+## [Geocoding API - Legacy](#geocoding-api---legacy)
 
 For live demo click [LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/doc/sample/mapmyindia-maps-geocoding-rest-api-example)
 
@@ -1063,7 +1074,7 @@ withRegion: .india)
 
 For more details visit our [online documentation](https://www.mapmyindia.com/api/advanced-maps/ios/vector-map-sdk#Geocoding-Forward).
 
-## [Routing API - Legacy](#Routing-API---Legacy)
+## [Routing API - Legacy](#routing-api---legacy)
 
 For live demo click [LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/doc/sample/mapmyindia-maps-route-rest-api-example)
 
@@ -1212,7 +1223,7 @@ error) in
 
 For more details visit our [online documentation](https://www.mapmyindia.com/api/advanced-maps/ios/vector-map-sdk#Route).
 
-## [Driving Distance Matrix API - Legacy](#Driving-Distance-Matrix-API---Legacy)
+## [Driving Distance Matrix API - Legacy](#driving-distance-matrix-api---legacy)
 
 For live demo click [LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/doc/sample/mapmyindia-maps-distance-rest-api-example)
 
@@ -1301,7 +1312,7 @@ attribution, error) in
 ```
 For more details visit our [online documentation](https://www.mapmyindia.com/api/advanced-maps/ios/vector-map-sdk#DrivingDistance).
 
-## [POI Along The Route API](#POI-Along-The-Route-API)
+## [POI Along The Route API](#poi-along-the-route-api)
 
 With POI Along the Route API user will be able to get the details of POIs of a particular category along his set route. The main focus of this API is to provide convenience to the user and help him in locating the place of his interest on his set route.
 
@@ -1314,6 +1325,7 @@ Class used to get list of POI along a route is `MapmyIndiaPOIAlongTheRouteManage
 `MapmyIndiaPOIAlongTheRouteOptions` is request class which will be used to pass all required and optional parameters. So it will be require to create an instance of `MapmyIndiaPOIAlongTheRouteOptions` and pass that instance to `getPOIsAlongTheRoute` function of `MapmyIndiaPOIAlongTheRouteManager`.
 
 #### Mandatory Parameters:
+
 1.  **path:** This parameter takes the encoded route along which POIs to be searched. It is of type `String`.
 1.  **category:** The POI category code to be searched. Only one category input supported. It is of type `String`.
 
@@ -1393,7 +1405,7 @@ poiAlongTheRouteOptions.buffer = 300;
 
 <br/>
 
-## [Nearby Reports API](#Nearby-Reports-API)
+## [Nearby Reports API](#nearby-reports-api)
 
 Nearby Reports enables the user to get required reports related to traffic, safety, community issues etc on the basis of input bound.
 

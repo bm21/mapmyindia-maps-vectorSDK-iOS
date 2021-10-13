@@ -1,85 +1,93 @@
-- [Vector iOS Map](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki)
+## [Vector iOS Map](Home.md)
 
-	* [Getting Started](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Getting-Started)
-	* [API Usage](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#API-Usage)
-	* [Setup your Project](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Setup-your-Project)
-	* [Add a MapmyIndia Map](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Add-a-MapmyIndia-Map)
-	* [Map Interactions](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Map-Interactions)
-	* [Map Features](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Map-Features)
-	* [Map Events](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Map-Events)
-	* [Map Overlays](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Map-Overlays)
-	* [Polylines](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Polylines)
-	* [Polygons](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Polygons)
-	* [Map Camera](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Map-Camera)
-	* [Miscellaneous](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Miscellaneous)
-		* [Cluster Based Authentication](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki#Cluster-Based-Authentication)
-- [MapmyIndiaGeoanalytics](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaGeoanalytics)
-- [Set Country Regions](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/Set-Regions)
-- [Set MapmyIndiaMap Style](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/Set-MapmyIndia-style)
+* <a href="Home.html#getting-started">Getting Started</a>
+* <a href="Home.html#api-usage">API Usage</a>
+* <a href="Home.html#setup-your-project">Setup your Project</a>
+* <a href="Home.html#add-a-mapmyindia-map">Add a MapmyIndia Map</a>
+* <a href="Home.html#map-interactions">Map Interactions</a>
+* <a href="Home.html#map-features">Map Features</a>
+* <a href="Home.html#map-events">Map Events</a>
+* <a href="Home.html#map-overlays">Map Overlays</a>
+* <a href="Home.html#polylines">Polylines</a>
+* <a href="Home.html#polygons">Polygons</a>
+* <a href="Home.html#map-camera">Map Camera</a>
+* <a href="Home.html#miscellaneous">Miscellaneous</a>
+	* <a href="Home.html#cluster-based-authentication">Cluster Based Authentication</a>
 
-- [REST API Kit](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit)
+## [MapmyIndiaGeoanalytics](MapmyIndiaGeoanalytics.md)
 
-     * [Autosuggest API](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Autosuggest-API)
-	 * [Reverse Geocode API](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Reverse-Geocoding-API)
-	 * [Nearby API](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Nearby-API)
-	 * [Place Details/eLoc Legacy API](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Place-DetailseLoc-Legacy-API)
-	 * [Place Detail](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Place-Detail)
-	* [Geocode API](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Geocoding-API)
-	* [Routing API](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Routing-API)
-	* [Driving Distance - Time Matrix API](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Driving-Distance-Time-Matrix-API)
-	* [Geocoding API - Legacy](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Geocoding-API---Legacy)
-	* [Routing API - Legacy](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Routing-API---Legacy)
-	* [Distance Matrix API - Legacy](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Driving-Distance-Matrix-API---Legacy)
-	* [POI Along The Route](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#POI-Along-The-Route-API)
-	* [Nearby Reports API](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/REST-API-Kit#Nearby-Reports-API)
 
-- [MapmyIndia Safety Plugin](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Plugin)
+## [Set Country Regions](Set-Regions.md)
 
-	- [Introduction](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Plugin#Introduction)
-	- [Steps to Integrate](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Plugin#Steps-to-Integrate-SDK-in-an-application)
-		- [Setup Your Project](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Plugin#1-Setup-Your-Project)
-		- [Initializion](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Plugin#2-Initialization)
-		- [Start Plugin](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Plugin#3-Start-Plugin)
-		- [Stop Safety Plugin](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Plugin#4-Stop-Safety-plugin)
-		- [Current Location Safety](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Plugin#5-Current-Location-Safety)
-		- [Enable or Disable Local Notification](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Plugin#6-Enable-or-Disable-Local-Notification)
-		- [MapmyIndiaSafetyPluginDelegate Protocol](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Plugin#7-MapmyIndiaSafetyPluginDelegate-Protocol)
 
-- [MapmyIndia Feedback Kit](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Feedback-Kit)
+## [Set MapmyIndiaMap Style](Set-MapmyIndia-style.md)
 
-- [MapmyIndia Interactive Layers](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Interactive-Layers)
 
-- [MapmyIndia Safety Strip](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndia-Safety-Strip)
+## [REST API Kit](REST-API-Kit.md)
 
-- [MapmyIndia UI Widgets](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaUIWidgets)
+* <a href="REST-API-Kit.html#autosuggest-api">Autosuggest API</a>
+* <a href="REST-API-Kit.html#reverse-geocoding-api">Reverse Geocoding API</a>
+* <a href="REST-API-Kit.html#nearby-api">Nearby API</a>
+* <a href="REST-API-Kit.html#place-detailseloc-legacy-api">Place Details/eLoc Legacy API</a>
+* <a href="REST-API-Kit.html#place-detail">Place Detail</a>
+* <a href="REST-API-Kit.html#geocoding-api">Geocoding API</a>
+* <a href="REST-API-Kit.html#routing-api">Routing API</a>
+* <a href="REST-API-Kit.html#driving-distance-time-matrix-api">Driving Distance * Time Matrix API</a>
+* <a href="REST-API-Kit.html#geocoding-api---legacy">Geocoding API * Legacy</a>
+* <a href="REST-API-Kit.html#routing-api---legacy">Routing API * Legacy</a>
+* <a href="REST-API-Kit.html#driving-distance-matrix-api---legacy">Driving Distance Matrix API * Legacy</a>
+* <a href="REST-API-Kit.html#poi-along-the-route-api">POI Along The Route API</a>
+* <a href="REST-API-Kit.html#nearby-reports-api">Nearby Reports API</a>
 
-	- [Introduction](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaUIWidgets#Introduction)
-	- [Installation](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaUIWidgets#Installation)
-		- [Version History](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaUIWidgets#Version-History)
-	- [Autocomplete](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaUIWidgets#Autocomplete)
-	- [Place Picker View](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaUIWidgets#Place-Picker-View)
-	- [Autocomplete Attribution Appearance](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaUIWidgets#Autocomplete-Attribution-Appearance)
 
-- [MapmyIndia Directions UI Widget](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaDirectionsUIWidget)
+## [MapmyIndia Safety Plugin](MapmyIndia-Safety-Plugin.md)
 
-	- [Introduction](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaDirectionsUIWidget#Introduction)
-	- [Installation](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaDirectionsUIWidget#Installation)
-		- [Version History](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaDirectionsViewController#Version-History)
-	- [Usage](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaDirectionsUIWidget#Usage)
-		- [MapmyIndiaDirectionsViewController](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaDirectionsUIWidget#MapmyIndiaDirectionsViewController)
+* <a href="MapmyIndia-Safety-Plugin.html#introduction">Introduction</a>
+* <a href="MapmyIndia-Safety-Plugin.html#Steps-to-Integrate-SDK-in-an-application">Steps to Integrate</a>
+	* <a href="MapmyIndia-Safety-Plugin.html#1-Setup-Your-project">Setup Your Project</a>
+	* <a href="MapmyIndia-Safety-Plugin.html#2-initialization">Initializion</a>
+	* <a href="MapmyIndia-Safety-Plugin.html#3-Start-plugin">Start Plugin</a>
+	* <a href="MapmyIndia-Safety-Plugin.html#4-Stop-Safety-plugin">Stop Safety Plugin</a>
+	* <a href="MapmyIndia-Safety-Plugin.html#5-Current-Location-safety">Current Location Safety</a>
+	* <a href="MapmyIndia-Safety-Plugin.html#6-Enable-or-Disable-Local-notification">Enable or Disable Local Notification</a>
+	* <a href="MapmyIndia-Safety-Plugin.html#7-MapmyIndiaSafetyPluginDelegate-protocol">MapmyIndiaSafetyPluginDelegate Protocol</a>
 
-- [MapmyIndia Nearby UI](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaNearbyUI)
+## [MapmyIndia Feedback Kit](MapmyIndia-Feedback-Kit.md)
 
-	- [Introduction](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaNearbyUI#Introduction)
-	- [Installation](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaNearbyUI#Installation)
-		- [Version History](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaNearbyUI#Version-History)
-	- [Launching with default configuration](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaNearbyUI#Launching-with-default-configuration)
-	- [MapmyIndiaNearbyCategoriesViewControllerDelegate](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaNearbyUI#MapmyIndiaNearbyCategoriesViewControllerDelegate)
+## [MapmyIndia Interactive Layers](MapmyIndia-Interactive-Layers.md)
 
-- [MapmyIndia GeofenceUI Plugin](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaGeofenceUI-Plugin)
+## [MapmyIndia Safety Strip](MapmyIndia-Safety-Strip.md)
 
-- [ELocation Strategy](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/MapmyIndiaMaps-E-Location-Strategy)
+## [MapmyIndia UI Widgets](MapmyIndiaUIWidgets.md)
 
-- [Country List](https://github.com/MapmyIndia/mapmyindia-rest-api/blob/master/docs/countryISO.md)
+* <a herf="MapmyIndiaUIWidgets.html#introduction">Introduction</a>
+* <a herf="MapmyIndiaUIWidgets.html#installation">Installation</a>
+	* <a herf="MapmyIndiaUIWidgets.html#version-history">Version-History</a>
+* <a herf="MapmyIndiaUIWidgets.html#autocomplete">Autocomplete</a>
+* <a herf="MapmyIndiaUIWidgets.html#place-picker-view">Place-Picker-View</a>
+* <a herf="MapmyIndiaUIWidgets.html#autocomplete-attribution-appearance">Autocomplete-Attribution-Appearance</a>
 
-- [Troubleshooting](https://github.com/MapmyIndia/mapmyindia-maps-vectorSDK-iOS/wiki/Troubleshooting)
+## [MapmyIndia Directions UI Widget](MapmyIndiaDirectionsUIWidget.md)
+
+* [Introduction](MapmyIndiaDirectionsUIWidget#Introduction.md)
+* [Installation](MapmyIndiaDirectionsUIWidget#Installation.md)
+	* [Version History](MapmyIndiaDirectionsViewController#Version-History.md)
+* [Usage](MapmyIndiaDirectionsUIWidget#Usage.md)
+	* [MapmyIndiaDirectionsViewController](MapmyIndiaDirectionsUIWidget#MapmyIndiaDirectionsViewController.md)
+
+
+## [MapmyIndia Nearby UI](MapmyIndiaNearbyUI.md)
+
+* [Introduction](MapmyIndiaNearbyUI#Introduction.md)
+* [Installation](MapmyIndiaNearbyUI#Installation.md)
+	* [Version History](MapmyIndiaNearbyUI#Version-History.md)
+* [Launching with default configuration](MapmyIndiaNearbyUI#Launching-with-default-configuration.md)
+* [MapmyIndiaNearbyCategoriesViewControllerDelegate](MapmyIndiaNearbyUI#MapmyIndiaNearbyCategoriesViewControllerDelegate.md)
+
+## [MapmyIndia GeofenceUI Plugin](MapmyIndiaGeofenceUI-Plugin.md)
+
+## [ELocation Strategy](MapmyIndiaMaps-E-Location-Strategy.md)
+
+## [Country List](https://github.com/MapmyIndia/mapmyindia-rest-api/blob/master/docs/countryISO.md)
+
+## [Troubleshooting](Troubleshooting.md)
