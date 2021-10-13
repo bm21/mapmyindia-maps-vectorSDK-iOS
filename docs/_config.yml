@@ -49,6 +49,7 @@ header_pages:
 
 # Build settings
 theme: "just-the-docs"
+remote_theme: pmarsceill/just-the-docs
 #theme: minima
 plugins:
   - jekyll-feed
