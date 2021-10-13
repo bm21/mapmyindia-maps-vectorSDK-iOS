@@ -1,4 +1,20 @@
+---
+layout: default
+title: Safety Strip Widgets
+nav_order: 9
+---
+
 ![MapmyIndia APIs](https://www.mapmyindia.com/api/img/mapmyindia-api.png)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 
 # Guide - Show COVID-19 Safety Status on MapmyIndia's Map
 

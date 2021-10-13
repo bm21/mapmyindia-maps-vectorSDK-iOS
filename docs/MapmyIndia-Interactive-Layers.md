@@ -1,3 +1,20 @@
+---
+layout: default
+title: Interactive Layers Plugin
+nav_order: 8
+---
+
+![MapmyIndia APIs](https://www.mapmyindia.com/api/img/mapmyindia-api.png)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # MapmyIndia Interactive Layers Plugin for iOS
 
 ## [Introduction](#Introduction)

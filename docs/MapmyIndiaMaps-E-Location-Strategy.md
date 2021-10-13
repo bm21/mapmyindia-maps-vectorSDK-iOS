@@ -1,4 +1,20 @@
+---
+layout: default
+title: e-Location Strategy
+nav_order: 14
+---
+
 ![MapmyIndia APIs](https://www.mapmyindia.com/api/img/mapmyindia-api.png)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 
 # e-Location Strategy in MapmyIndia's Map SDK for iOS
 

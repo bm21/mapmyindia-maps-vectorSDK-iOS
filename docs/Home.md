@@ -1,4 +1,15 @@
+
 ![MapmyIndia APIs](https://www.mapmyindia.com/api/img/mapmyindia-api.png)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 
 # MapmyIndia Vector Maps Sample App (with SDK - Native) for iOS
 

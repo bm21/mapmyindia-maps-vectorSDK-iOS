@@ -1,5 +1,20 @@
+---
+layout: default
+title: Set Map style
+nav_order: 4
+---
 
 ![MapmyIndia APIs](https://www.mapmyindia.com/api/img/mapmyindia-api.png)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 
 # [Set MapmyIndiaMaps style](#Set-MapmyIndiaMaps-style)
 

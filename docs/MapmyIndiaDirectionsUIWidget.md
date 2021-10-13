@@ -1,4 +1,20 @@
+---
+layout: default
+title: Directions UI
+nav_order: 11
+---
+
 ![MapmyIndia APIs](https://www.mapmyindia.com/api/img/mapmyindia-api.png)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 
 # MapmyIndiaDirectionsUI for iOS
 

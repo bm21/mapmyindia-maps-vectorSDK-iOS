@@ -1,3 +1,21 @@
+---
+layout: default
+title: Geoanalytics Plugin for iOS
+nav_order: 2
+---
+
+![MapmyIndia APIs](https://www.mapmyindia.com/api/img/mapmyindia-api.png)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+
 # MapmyIndiaGeoanalytics Plugin for iOS
 
 ## [Introduction](#Introduction)

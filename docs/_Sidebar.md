@@ -1,3 +1,9 @@
+---
+layout: default
+title: Table Of Contents
+nav_order: 17
+---
+
 ## [Vector iOS Map](Home.md)
 
 * <a href="Home.html#getting-started">Getting Started</a>
@@ -89,5 +95,7 @@
 ## [ELocation Strategy](MapmyIndiaMaps-E-Location-Strategy.md)
 
 ## [Country List](https://github.com/MapmyIndia/mapmyindia-rest-api/blob/master/docs/countryISO.md)
+
+## [Nearby Search Widget](MapmyIndiaNearbyUIDetails.md)
 
 ## [Troubleshooting](Troubleshooting.md)
