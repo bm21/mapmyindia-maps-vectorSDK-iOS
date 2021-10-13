@@ -41,8 +41,8 @@ just-the-docs:
 #   - about.md
 
 # Build settings
-theme: "just-the-docs"
-# remote_theme: pmarsceill/just-the-docs
+# theme: "just-the-docs"
+remote_theme: pmarsceill/just-the-docs
 baseurl: "/mapmyindia-maps-vectorSDK-iOS" # the subpath of your site, e.g. /blog
 url: "https://bm21.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
